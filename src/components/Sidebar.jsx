@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { LayoutDashboard, ShoppingCart, ChefHat, BookOpenText } from 'lucide-react';
+import { LayoutDashboard, ShoppingCart, ChefHat, BookOpenText, TrendingUp } from 'lucide-react';
 import './Sidebar.css'; 
 
 const Sidebar = () => {
@@ -9,6 +9,7 @@ const Sidebar = () => {
     { name: 'POS', path: '/pos', icon: <ShoppingCart size={22} /> },
     { name: 'Kitchen', path: '/kitchen', icon: <ChefHat size={22} /> },
     { name: 'Menu Editor', path: '/menu', icon: <BookOpenText size={22} /> },
+    { name: 'Sales Reports', path: '/reports', icon: <TrendingUp size={22} /> },
   ];
 
   return (
